@@ -1,0 +1,69 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Node / Frontend
+node_modules/
+.pnp/
+.pnp.cjs
+.pnpm-store/
+.npm/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarnrc.yml
+
+# Frontend builds
+build/
+dist/
+.next/
+.out/
+.cache/
+.parcel-cache/
+.turbo/
+.svelte-kit/
+.nuxt/
+.angular/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg*
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.venv/
+venv/
+.env
+.env.*
+
+# Databases & local storage
+db.sqlite3
+backend/db.sqlite3
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Misc
+*.local
+*.cache
+*.bak
+*.tmp
+*.temp
