@@ -6,7 +6,7 @@ from .routers import profile, posts, reels, scrape
 app = FastAPI(title="Instagram Influencer Profile API", version="0.1.0")
 
 origins = [
-    "http://localhost:5173",
+    "https://instagram-assignment-frontend.onrender.com",
     "http://127.0.0.1:5173",
 ]
 
